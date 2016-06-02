@@ -1,0 +1,16 @@
+[
+{
+  "modid": "potatiumcraft",
+  "name": "Potatium Craft",
+  "description": "Is it edible? Probally not.",
+  "version": "0.0.1",
+  "mcversion": "1.9.4",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["VelkenT"],
+  "credits": "The Forge and FML guys, for making FML; Choonster for his TestMod template; Direwolf20 for making awesome MC videos which kept my hype for making this mod; Shadowfacts for making a good modding tutorial.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
