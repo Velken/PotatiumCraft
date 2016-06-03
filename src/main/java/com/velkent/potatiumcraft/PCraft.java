@@ -23,18 +23,18 @@ public class PCraft {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         PCItems.init();
-        System.out.println(name + "ALL HAIL THE GREAT POTATIUM GOD!!!");
+        System.out.println("ALL HAIL THE GREAT POTATIUM GOD!!!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        System.out.println(name + "THE GREAT POTATIUM GOD HAS HEARD OUR CRY FOR HELP!!!!");
+        System.out.println("THE GREAT POTATIUM GOD HAS HEARD OUR CRY FOR HELP!!!!");
 
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
-        System.out.println(name + "THOU WHO DARES TO AWAKES THE POTATIUM GOD SHALL SUFFER!!!");
+        System.out.println("THOU WHO DARES TO AWAKES THE POTATIUM GOD SHALL SUFFER!!!");
 
     }
 
