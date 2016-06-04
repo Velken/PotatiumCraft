@@ -1,5 +1,6 @@
 package com.velkent.potatiumcraft;
 
+import com.velkent.potatiumcraft.block.PCBlocks;
 import com.velkent.potatiumcraft.item.PCItems;
 import com.velkent.potatiumcraft.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
@@ -23,6 +24,7 @@ public class PCraft {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         PCItems.init();
+        PCBlocks.init();
         System.out.println("ALL HAIL THE GREAT POTATIUM GOD!!!");
     }
 
