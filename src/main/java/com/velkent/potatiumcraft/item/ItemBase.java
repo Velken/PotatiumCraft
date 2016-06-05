@@ -1,6 +1,7 @@
 package com.velkent.potatiumcraft.item;
 
 
+import com.velkent.potatiumcraft.creativetab.PCCreativeTabs;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import com.velkent.potatiumcraft.PCraft;
@@ -14,6 +15,7 @@ public class ItemBase extends Item {
         this.name = name;
         setUnlocalizedName(name);
         setRegistryName(name);
+        setCreativeTab(PCCreativeTabs.PCMain);
     }
 
     public void registerItemModel() {

@@ -1,5 +1,6 @@
 package com.velkent.potatiumcraft.block;
 
+import com.velkent.potatiumcraft.creativetab.PCCreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemBlock;
@@ -15,8 +16,8 @@ public class PCBlocks {
     public static BlockMetal1 potatium_eye_block;
 
     public static void init() {
-        ore_potatium = register(new BlockOre("ore_potatium").setCreativeTab(CreativeTabs.MATERIALS));
-        potatium_eye_block = register(new BlockMetal1("potatium_eye_block").setCreativeTab(CreativeTabs.MATERIALS));
+        ore_potatium = register(new BlockOre("ore_potatium").setCreativeTab(PCCreativeTabs.PCMain));
+        potatium_eye_block = register(new BlockMetal1("potatium_eye_block").setCreativeTab(PCCreativeTabs.PCMain));
     }
 
     private static <T extends Block> T register(T block, ItemBlock itemBlock) {

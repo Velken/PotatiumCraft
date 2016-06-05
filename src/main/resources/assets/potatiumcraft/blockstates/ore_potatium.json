@@ -2,7 +2,7 @@
 	"forge_marker": 1,
 	"defaults": {
 		"textures": {
-			"all": "potatiumcraft:blocks/potatium_eye_block"
+			"all": "potatiumcraft:blocks/ore_potatium"
 		}
 	},
 	"variants": {
