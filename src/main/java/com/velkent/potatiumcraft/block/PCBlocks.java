@@ -2,7 +2,6 @@ package com.velkent.potatiumcraft.block;
 
 import com.velkent.potatiumcraft.creativetab.PCCreativeTabs;
 import net.minecraft.block.Block;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -10,13 +9,17 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class PCBlocks {
 
     //ores tier 1
-    public static BlockOre ore_potatium;
+    public static BlockOre1 ore_potatium;
 
     //metals tier 1
     public static BlockMetal1 potatium_eye_block;
 
+    //other blocks
+    public static BlockAir PCAir;
+
     public static void init() {
-        ore_potatium = register(new BlockOre("ore_potatium").setCreativeTab(PCCreativeTabs.PCMain));
+        PCAir = register(new BlockAir("PCAir"));
+        ore_potatium = register(new BlockOre1("ore_potatium").setCreativeTab(PCCreativeTabs.PCMain));
         potatium_eye_block = register(new BlockMetal1("potatium_eye_block").setCreativeTab(PCCreativeTabs.PCMain));
     }
 
